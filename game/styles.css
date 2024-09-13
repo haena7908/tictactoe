@@ -1,0 +1,78 @@
+/* .board {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 6px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+} */
+
+/* body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 6px;
+  justify-content: center;
+  align-items: center;
+} */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 6px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.cell:hover {
+  background-color: beige;
+}
+
+.cell {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(251, 232, 243);
+  background-color: rgb(237, 240, 252);
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  border-radius: 60px;
+  background-color: antiquewhite;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* .resetForm input {
+  border-radius: 60px;
+  background-color: antiquewhite;
+  border: 1px solid black;
+  cursor: pointer;
+} */
